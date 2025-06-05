@@ -26,10 +26,6 @@
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-war-plugin</artifactId>
 	<version>3.4.0</version>
-	<configuration>
-	<!-- Optional: Exclude files or customize WAR structure -->
-	<packagingExcludes>WEB-INF/lib/*.jar</packagingExcludes>
-	</configuration>
 	</plugin>
   </plugins>
     <finalName>AnsibleWeb</finalName>
