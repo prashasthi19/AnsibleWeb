@@ -4,8 +4,8 @@
   tasks:
     -name: Copy WAR file to Tomcat
      copy:
-       src: "/var/snap/jenkins/4874/workspace/AnsibleWeb-CICD-Pipeline/target/AnsibleWeb.war"
-       dest: "/opt/tomcat/webapps/AnsibleWeb.war"
+       src: "../target/AnsibleWeb.war"
+       dest: "../AnsibleWeb.war"
        remote_src: no
       
     -name: Restart Tomcat
